@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+
+body {
+  font-family: 'Architects Daughter', cursive;
+}
+
+#title {
+
+  background-color: black;
+
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+  background-image: url(../images/hell3.png);
+  background-size:contain;
+}
+h1 {
+  color: blueviolet;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2em;
+  margin-top: 160px;
+
+  font-size: 200%;
+  }
+
+}
+
+h2 {
+  font-size: 150%;
+  color: #F9F9F9;
+  font-weight: bold;
+  padding-bottom: 1em;
+font-family: "Poppins", sans-serif;
+}
+
+
+h3 {
+  font-size: 125%;
+  color: yellow;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+h3:hover {
+  font-size: 125%;
+  color: blueviolet;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar-nav li {
+    float: right;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-nav h3 {
+    color: blueviolet;
+}
+
+.navbar-nav li:hover {
+    background-image: linear-gradient(brown, purple);
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+
+
+}
+
+/* Features */
+#features {
+  text-align: center;
+  background-color: black;
+
+}
+
+
+/*Testimonials */
+
+
+h4 {
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+h4:hover {
+  color: pink;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.skill{
+  text-align: center;
+  background-color: black;
+  padding:2% 38%;
+}
+
+
+/* Footer Section*/
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+}
+
+#footer{
+background-color: black;
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.social-icon
+{
+  margin: 20px 10px;
+}
+em{
+  text-align: center;
+  color: white;
+}
