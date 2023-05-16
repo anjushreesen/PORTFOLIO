@@ -21,6 +21,7 @@ h1 {
   margin-top: 140px;
 
   font-size: 100%;
+
   }
 
 h2 {
@@ -29,6 +30,11 @@ h2 {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   padding-top: 10px;
+  width: 40ch;
+  animation: typing 3s steps(40), blink .7s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
 }
 
 
@@ -53,11 +59,15 @@ h3:hover {
   padding: 0 0 4.5rem;
 }
 
+
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5em;
   font-weight: bold;
 }
+
+
+
 
 .navbar-item {
   padding: 0 18px;
@@ -92,7 +102,7 @@ h3:hover {
 
 /* Title Image */
 .title-image {
-  width: 50%;
+  width: 60%;
 
 
 }
@@ -155,4 +165,37 @@ background-color: black;
 em{
   text-align: center;
   color: white;
+} 
+.col-lg-6{
+  animation-name: text;
+
+
+}
+
+
+@keyframes typing{
+  from{width: 0%}
+  to{width: 100%}
+
+}
+
+@keyframes blink{
+  50%{border-color: transparent}
+}
+
+#proj{
+  color: rgb(247, 245, 248);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2em;
+  margin-top: 140px;
+text-decoration-line: underline;
+  font-size: 40px;
+padding-bottom: 100px;
+  text-align: center;
+
+}
+#pro{
+  display: flex;
+  float: left;
+  padding: 10px;
 }
